@@ -13,10 +13,9 @@
 WiFiClient client;
 //#define FORMAT_LITTLEFS_IF_FAILED true
 #define led 13
-const char* ssid = "Nokia G20";
-const char* password = "mypasscode50";
-//const char* serverName = "https://www.nfc-payment-api.vercel.app/api/account/tx";
-const char* serverName = "https://nfc-payment-api.vercel.app/api/account/tx";
+const char* ssid = "******";
+const char* password = "*****;
+const char* serverName = "******";
 String cardNumber;
 String amount;
 String transactionType;
